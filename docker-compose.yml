@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apitestdocker:
+    image: ${DOCKER_REGISTRY-}apitestdocker
+    build:
+      context: .
+      dockerfile: Dockerfile
