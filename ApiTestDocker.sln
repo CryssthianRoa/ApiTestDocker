@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23F545FC-211C-4F63-B12E-05F506057BC6}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		task-definition.json = task-definition.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCases", "TestCases\TestCases.csproj", "{721EF481-B603-474B-BE3F-8DD531EF4A38}"
