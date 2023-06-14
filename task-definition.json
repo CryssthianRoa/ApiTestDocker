@@ -6,7 +6,7 @@
       "dnsSearchDomains": null,
       "environmentFiles": null,
       "logConfiguration": null,
-      "entryPoint": null,
+      "entryPoint": [],
       "portMappings": [
         {
           "hostPort": 80,
@@ -14,7 +14,7 @@
           "containerPort": 80
         }
       ],
-      "command": null,
+      "command": [],
       "linuxParameters": null,
       "cpu": 0,
       "environment": [],
@@ -25,11 +25,11 @@
       "workingDirectory": null,
       "secrets": null,
       "dockerSecurityOptions": null,
-      "memory": null,
+      "memory": 1024,
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "970360615979.dkr.ecr.us-east-2.amazonaws.com/host-netcore-app:57061c58027146aae5858574cea708f569b11706",
+      "image": "970360615979.dkr.ecr.us-east-2.amazonaws.com/host-netcore-app:40168afef35993f570e50397d0fc71df1aaa02c8",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -50,13 +50,13 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "10240",
+  "memory": "1024",
   "taskRoleArn": "arn:aws:iam::970360615979:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:970360615979:task-definition/DeployContainer:27",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:970360615979:task-definition/DeployContainer:29",
   "family": "DeployContainer",
   "requiresAttributes": [
     {
@@ -85,7 +85,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": "1024",
-  "revision": 27,
+  "revision": 29,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
