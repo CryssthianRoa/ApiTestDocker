@@ -1,12 +1,12 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::970360615979:role/ecsTaskExecutionRole",
+  "executionRoleArn": null,
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
       "environmentFiles": null,
       "logConfiguration": null,
-      "entryPoint": [],
+      "entryPoint": null,
       "portMappings": [
         {
           "hostPort": 80,
@@ -14,7 +14,7 @@
           "containerPort": 80
         }
       ],
-      "command": [],
+      "command": null,
       "linuxParameters": null,
       "cpu": 0,
       "environment": [],
@@ -25,11 +25,11 @@
       "workingDirectory": null,
       "secrets": null,
       "dockerSecurityOptions": null,
-      "memory": 1024,
+      "memory": null,
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "970360615979.dkr.ecr.us-east-2.amazonaws.com/host-netcore-app:40168afef35993f570e50397d0fc71df1aaa02c8",
+      "image": "970360615979.dkr.ecr.us-east-2.amazonaws.com/host-netcore-app:adf3960bc3ad579e460da7f524070fb5d9417f2c",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -50,13 +50,13 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "1024",
-  "taskRoleArn": "arn:aws:iam::970360615979:role/ecsTaskExecutionRole",
+  "memory": "128",
+  "taskRoleArn": null,
   "compatibilities": [
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:970360615979:task-definition/DeployContainer:29",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:970360615979:task-definition/DeployContainer:6",
   "family": "DeployContainer",
   "requiresAttributes": [
     {
@@ -64,18 +64,6 @@
       "targetType": null,
       "value": null,
       "name": "com.amazonaws.ecs.capability.ecr-auth"
-    },
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "com.amazonaws.ecs.capability.task-iam-role"
-    },
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "ecs.capability.execution-role-ecr-pull"
     }
   ],
   "pidMode": null,
@@ -85,7 +73,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": "1024",
-  "revision": 29,
+  "revision": 6,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
